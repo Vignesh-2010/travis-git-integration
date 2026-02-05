@@ -1,7 +1,8 @@
-language: shell
+language: java
 
-env:
-  - USERNAME=Vignesh
+jdk:
+  - openjdk17
 
 script:
-  - echo "Username is $USERNAME"
+  - javac Hello.java
+  - java Hello
