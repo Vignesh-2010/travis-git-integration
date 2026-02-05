@@ -1,5 +1,7 @@
 language: shell
 
+env:
+  - USERNAME=Vignesh
+
 script:
-  - ls -la
-  - echo "Repository successfully checked out"
+  - echo "Username is $USERNAME"
