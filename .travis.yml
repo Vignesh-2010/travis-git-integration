@@ -1,0 +1,5 @@
+language: shell
+
+script:
+  - ls -la
+  - echo "Repository successfully checked out"
